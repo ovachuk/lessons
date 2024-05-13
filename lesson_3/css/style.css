@@ -1,0 +1,15 @@
+@import url("reset.css");
+
+.title {
+	color: blue;
+}
+
+.main__block-1 p {
+	color: red;
+}
+
+.main__block-2,
+.main__block-3 > p {
+	color: olivedrab;
+}
+

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+}
+
+.krovato__main {
+	margin-bottom: 70px;
+}
+
+.header {
+	font-weight: 700;
+	font-size: 70px;
+	text-align: center;
+	font-style: italic;
+	color: blue;
+	text-shadow: 10px 5px 9px lawngreen;
+	margin-bottom: 30px;
+}
+
+.krovato__section {
+	line-height: 1.875;
+	color: #2b2929;
+	background-color: #F8F8F8;
+}
+
+.krovato__page p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.krovato__page {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.krovato__title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	color: #2b2929;
+	margin-bottom: 40px;
+}
+
+.image {
+	max-width: 1070px;
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+.krovato__subtitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #2b2929;
+	margin-bottom: 30px;
+}
+
+.krovato__list {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.krovato__list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.krovato__items {
+	padding-left: 47px;
+	margin-bottom: 40px;
+}
+
+.krovato__container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.krovato__title {
+	text-align: center;
+}
+
+.krovato__blocks {
+	font-size: 0;
+	margin-bottom: 50px;
+}
+
+.krovato__blocks img {
+	margin-bottom: 20px;
+}
+
+.krovato__block {
+	display: inline-block;
+	max-width: 300px;
+	vertical-align: top;
+}
+
+.krovato__block:not(:last-child) {
+	margin-right: 30px;
+}
+
+.krovato__content {
+	padding: 4px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.krovato__caption {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.31;
+	margin-bottom: 20px;
+}
+
+.instagram__container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.instagram__sub-title {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	color: var(--Dark, #000);
+	text-transform: capitalize;
+}
+
+.instagram__blocks {
+	font-size: 0;
+	padding: 100px 0;
+}
+
+.instagram__block:not(:last-child) {
+	margin-right: 24px;
+}
+
+.instagram__blocks>h3 {
+	margin-bottom: 60px;
+}
+
+.instagram__block {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.footer {
+	background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+}

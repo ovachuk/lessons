@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+}
+
+
+.header {
+	font-weight: 700;
+	font-size: 70px;
+	text-align: center;
+	font-style: italic;
+	color: blue;
+	text-shadow: 10px 5px 9px lawngreen;
+	margin-bottom: 30px;
+}
+
+/* Krovato Block */
+
+.krovato__section {
+	max-width: 1920px;
+	line-height: 1.875;
+	color: #2b2929;
+	background-color: #F8F8F8;
+	margin-bottom: 60px;
+}
+
+.krovato__page_1 p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.krovato__page_1 {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.krovato__page {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.krovato__title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	color: #2b2929;
+	margin-bottom: 40px;
+}
+
+.image {
+	max-width: 1070px;
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+.krovato__subtitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #2b2929;
+	margin-bottom: 30px;
+}
+
+.krovato__list {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.krovato__list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.krovato__items {
+	background: url(../img/krovato/mark.png) 0 0 / 32px no-repeat;
+	padding-left: 47px;
+}
+
+/* Collections Block */
+
+.colections__wrapper {
+	font-family: "Roboto", sans-serif;
+	padding: 60px 0;
+	background: url(../img/coral/decor-left.svg) 0 80% / auto no-repeat,
+		url(../img/coral/decor-right.svg) 100% 60% / auto no-repeat rgba(30, 40, 50, 0.05);
+	margin-bottom: 60px;
+}
+
+.collections__container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-size: 0;
+}
+
+.collections__blocks {
+	display: inline-block;
+	padding: 20px 0;
+	vertical-align: middle;
+	max-width: 682px;
+	font-size: 16px;
+	margin-right: 116px;
+	color: #000;
+}
+
+.collections__title {
+	font-size: 74px;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 52px;
+}
+
+.collections__text {
+	text-transform: capitalize;
+	font-size: 30px;
+	line-height: 1.83;
+	margin-bottom: 66px;
+}
+
+.button {
+	display: inline-block;
+	padding: 19px 26px 19px 64px;
+	background: #1e2832 url("../img/coral/button-icon.png") 26px center / 30px no-repeat;
+	font-size: 29px;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.collections__image,
+.collections__image img {
+	display: inline-block;
+	border-radius: 160px 0;
+	max-width: 424px;
+	width: 100%;
+	height: 542px;
+}
+
+.collections__image {
+	vertical-align: middle;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.collections__image img {
+	margin-top: -20px;
+	margin-left: -18px;
+}
+
+/* Eduplay Block */
+
+.eduplay__wrapper {
+	font-family: "Quicksand", sans-serif;
+	background-image: url("../img/eduplay/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(148, 75, 242);
+	margin-bottom: 50px;
+}
+
+.eduplay__container {
+	max-width: 1244px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.eduplay__block {
+	font-size: 16px;
+	max-width: 600px;
+	margin-right: 129px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 121px 0;
+	color: rgb(255, 255, 255);
+}
+
+.eduplay__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 24px;
+}
+
+.eduplay__text {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+
+.eduplay__button {
+	display: inline-block;
+	padding: 12px 24px 12px 40px;
+	background: #fff url("../img/eduplay/button-label.png") 20px center / 16px no-repeat;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.56;
+	color: #0d1216;
+}
+
+.eduplay__img {
+	vertical-align: middle;
+	max-width: 515px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer__link {
+	display: inline-block;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: rgb(87, 255, 20);
+	border: 3px solid rgba(243, 13, 13, 0.25);
+	border-radius: 8px;
+	padding: 25px;
+	background-color: darkorange;
+}
